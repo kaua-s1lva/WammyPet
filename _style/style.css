@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cookie&family=Delius&display=swap');
+
+:root {
+    --font-xl: clamp(0.6rem, 0.9vw, 0.85rem)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #cda77c;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-align: top;
+}
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 0;
+    display: flex;
+    gap: 25px;
+}
+
+.top-menu-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-right: 9.375vw;
+}
+
+.top-menu-item a {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+    color: #3B2015;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    font-weight: 200;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2vw;
+    font-family: 'Delius', cursive;
+
+    color: #3B2015;
+    font-weight: bolder;
+    background-color: #EBD4BA;
+    padding: 20px 0 10px 0;
+}
+
+.search {
+    width: 45vw;
+}
+
+.botao {
+    width: 100%;
+    height: 50px;
+}
+
+.search .botao input {
+    float: left;
+    width: 80%;
+    height: 100%;
+    border-radius: 7px 0 0 7px;
+    border: none;
+    padding: 6px 10px;
+    font-family: 'Delius', cursive;
+    font-size: 1.1rem;
+    color: #A99C97;
+}
+
+.search button {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+    border: none;
+    border-radius: 0 7px 7px 0;
+}
+
+.search button:hover {
+    cursor: pointer;
+}
+
+.search button img {
+    float: right;
+    padding-right: 10px;
+}
+
+.search ul {
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+    padding-top: 24px;
+    padding-left: 10px;
+    clear: both;
+}
+
+.search ul li {
+    list-style-type: none;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.search ul li a {
+    text-decoration: none;
+    color: #3B2015;
+}
+
+.login {
+    width: 7vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.login button {
+    border: none;
+    border-radius: 7px;
+
+    background-color: #fff;
+    height: 50px;
+}
+
+.login ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+    gap: 15px;
+}
+
+.login ul li a {
+    color: #3B2015;
+    text-decoration: none;
+}
+
+.login ul li {
+    list-style-type: none;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.items-text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Delius', cursive;
+    font-size: var(--font-xl);
+    text-align: start;
+}
+
+.items-text-element {
+    text-decoration: none;
+    color: #3B2015;
+}
+
+.icon-img {
+    margin-top: 14px;
+}
+
+.missao {
+    background: #EBD4BA;
+}
+
+.wammy-pet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-content {
+    width: 50%;
+}
+
+.wammy-mancha {
+    float: right;
+    margin: 50px 0 200px 0;
+}
+
+#text-principal {
+    position: absolute;
+    font-size: 45px;
+    text-align: center;
+    width: 35%;
+    top: 36%;
+    color: #3B2015;
+    margin-left: 7%;
+}
+
+.right-content button {
+    padding: 8px 17px;
+    color: #EBD4BA;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 7px;
+    background: #3B2015;
+    border: none;
+    position: absolute;
+    top: 70%;
+    left: 58%;
+}
+
+.right-content button:hover {
+    cursor: pointer;
+}
+
+.produtos {
+    background: #3B2015;
+    clear: both;
+}
+
+.container2 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 0 140px 0;
+}
+
+#produtosid {
+    width: 320px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -8.3vh;
+}
+
+.item-produto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 28px;
+    padding: 20px 0;
+    color: #EBD4BA;
+}
+
+.produtos p {
+    margin: 1em;
+    text-align: center;
+}
+
+.servicos {
+    text-align: center;
+}
+
+#servico-bone {
+    width: 320px;
+    position: relative;
+    top: -8.3vh;
+}
+
+.servicos p {
+    margin: 0 15%;
+    font-size: 28px;
+    color: #3B2015;
+}
+
+.servicos-mostra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin: 110px 0 145px 0;
+}
+
+.servicos-mostra div img {
+    width: 200px;
+}
+
+.transporte {
+    background: #3B2015;
+    padding-bottom: 120px;
+}
+
+#transporte-bone {
+    position: relative;
+    top: -8.3vh;
+    width: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.transporte-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.transporte-text {
+    width: 60vw;
+}
+
+.transporte-text p {
+    font-size: 28px;
+    color: #EBD4BA;
+    text-align: center;
+}
