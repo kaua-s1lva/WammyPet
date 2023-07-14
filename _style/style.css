@@ -319,3 +319,36 @@ header {
     color: #EBD4BA;
     text-align: center;
 }
+
+.contato-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.contato-input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contato-input input {
+    width: 400px;
+    height: 38px;
+    border: none;
+    border-radius: 7px;
+    background-color: #fff;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-family: 'Delius', cursive;
+}
+
+#contato-bone {
+    position: relative;
+    top: -8.3vh;
+    width: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
