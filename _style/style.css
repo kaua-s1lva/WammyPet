@@ -51,7 +51,6 @@ header {
     align-items: flex-start;
     gap: 2vw;
     font-family: 'Delius', cursive;
-
     color: #3B2015;
     font-weight: bolder;
     background-color: #EBD4BA;
@@ -198,7 +197,7 @@ header {
     font-size: 45px;
     text-align: center;
     width: 35%;
-    top: 36%;
+    top: 400px;
     color: #3B2015;
     margin-left: 7%;
 }
@@ -215,8 +214,8 @@ header {
     background: #3B2015;
     border: none;
     position: absolute;
-    top: 70%;
-    left: 58%;
+    top: 780px;
+    left: 59%;
 }
 
 .right-content button:hover {
@@ -241,7 +240,7 @@ header {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    top: -8.3vh;
+    top: -76px;
 }
 
 .item-produto {
@@ -265,7 +264,7 @@ header {
 #servico-bone {
     width: 320px;
     position: relative;
-    top: -8.3vh;
+    top: -76px;
 }
 
 .servicos p {
@@ -294,7 +293,7 @@ header {
 
 #transporte-bone {
     position: relative;
-    top: -8.3vh;
+    top: -76px;
     width: 320px;
     left: 50%;
     transform: translateX(-50%);
@@ -315,40 +314,65 @@ header {
 }
 
 .transporte-text p {
-    font-size: 28px;
+    font-size: 30px;
     color: #EBD4BA;
     text-align: center;
+}
+
+.contato {
+    margin-bottom: 100px;
 }
 
 .contato-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 2vw;
+    gap: 0.5vw;
 }
 
 .contato-input {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 18px;
 }
 
 .contato-input input {
-    width: 400px;
-    height: 38px;
+    width: 20vw;
+    height: 45px;
     border: none;
     border-radius: 7px;
     background-color: #fff;
     padding: 6px 10px;
-    font-size: 14px;
+    font-size: 1rem;
     font-family: 'Delius', cursive;
 }
 
 #contato-bone {
     position: relative;
-    top: -8.3vh;
+    top: -76px;
     width: 320px;
     left: 50%;
     transform: translateX(-50%);
 }
 
+.contato-textarea textarea {
+    border: none;
+    border-radius: 7px;
+    background-color: #fff;
+    padding: 6px 10px;
+    font-size: 1rem;
+    font-family: 'Delius', cursive;
+}
+
+.map {
+    margin: 0;
+    padding: 0;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+footer {
+    background-color: #3B2015;
+}
