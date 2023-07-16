@@ -365,8 +365,7 @@ header {
 }
 
 .map {
-    margin: 0;
-    padding: 0;
+    
 }
 
 .map iframe {
@@ -459,6 +458,7 @@ footer {
     cursor: pointer;
 }
 
-.coluna3-icons img {
-    padding-left: 5px;
+.coluna3-icons {
+    display: flex;
+    gap: 6px;
 }
