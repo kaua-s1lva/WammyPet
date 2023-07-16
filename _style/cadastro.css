@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cookie&family=Delius&display=swap');
+
+:root {
+    --font-min: clamp(0.6rem, 1.2vw, 1rem)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #cda77c;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+header {
+    background-color: #EBD4BA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 6.5vw;
+}
+
+.hello p {
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+    color: #3B2015;
+}
+
+main h1 {
+    color: #3B2015;
+    margin-top: 60px;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+form {
+    width: 50vw;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.enunciado {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.reta {
+    width: 80%;
+    background-color: #3B2015;
+    height: 2px;
+}
+
+.text {
+    font-size: var(--font-min);
+    font-family: 'Delius', cursive;
+    color: #3B2015;
+    width: 20%;
+}
+
+.dados-pessoais-input {
+    margin: 20px 0;
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+.dados-pessoais-input input {
+    padding: 13px 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: 'Delius', cursive;
+    color: #A99C97;
+}
+
+.nome-tel {
+    width: 59%;
+}
+
+.sobre-email {
+    width: 39%;
+}
+
+.senha {
+    width: 49%;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(../_img/Polygon.png) no-repeat center right #fff;
+    width: 45%;
+    padding: 13px 10px;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: 'Delius', cursive;
+    color: #A99C97;
+}
+

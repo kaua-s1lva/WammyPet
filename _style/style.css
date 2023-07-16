@@ -125,7 +125,6 @@ header {
 .login button {
     border: none;
     border-radius: 7px;
-
     background-color: #fff;
     height: 50px;
 }
@@ -362,10 +361,6 @@ header {
     padding: 6px 10px;
     font-size: 1rem;
     font-family: 'Delius', cursive;
-}
-
-.map {
-    
 }
 
 .map iframe {
