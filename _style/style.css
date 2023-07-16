@@ -376,3 +376,89 @@ header {
 footer {
     background-color: #3B2015;
 }
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25vw;
+    align-items: center;
+    color: #EBD4BA;
+    padding: 50px 0;
+}
+
+.coluna1 {
+    text-align: center;
+}
+
+.coluna1-contato {
+    font-family: 'Cookie', cursive;
+}
+
+.coluna1-contato p:first-child {
+    font-size: 40px;
+    border-bottom: 1px solid #EBD4BA;
+    padding: 0 35px 15px 35px;
+}
+
+.coluna1-contato p:nth-child(2) {
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.coluna1-politica {
+    margin-top: 70px;
+}
+
+.coluna2 {
+    text-align: center;
+}
+
+.coluna2 p:first-child {
+    margin-bottom: 10px;
+}
+
+.coluna2 ul {
+    list-style-type: none;
+}
+
+.coluna2 ul li a {
+    text-decoration: none;
+    color: #EBD4BA;
+}
+
+#copyright {
+    margin-top: 90px;
+    font-weight: lighter;
+    font-family: 'Delius', cursive;
+    font-size: 12px;
+}
+
+.coluna3-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna3-input input {
+    border: none;
+    border-radius: 7px;
+    background-color: #fff;
+    padding: 6px 10px;
+    font-family: 'Delius', cursive;
+}
+
+.coluna3-input button {
+    border: none;
+    border-radius: 7px;
+    background-color: #EBD4BA;
+    padding: 6px 10px;
+    font-family: 'Delius', cursive;
+    color: #3B2015;
+    font-weight: bolder;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.coluna3-icons img {
+    padding-left: 5px;
+}
