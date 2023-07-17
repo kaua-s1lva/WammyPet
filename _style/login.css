@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cookie&family=Delius&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Delius', cursive;
+}
+
+body {
+    background-color: #cda77c;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.left-content {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right-content {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #EBD4BA;
+    padding: 40px;
+    border-radius: 7px;
+}
+
+.title {
+    font-size: 38px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: #3B2015;
+}
+
+.right-content-botao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email-senha {
+    width: 18vw;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    background-color: #fff;
+    padding: 6px 10px;
+    font-size: 1rem;
+    font-family: 'Delius', cursive;
+}
+
+.entrar {
+    width: 18vw;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    background-color: #3B2015;
+    padding: 6px 10px;
+    font-size: 1rem;
+    font-family: 'Delius', cursive;
+    color: #EBD4BA;
+    font-weight: bolder;
+    letter-spacing: 0.05rem;
+}
+
+.entrar:hover {
+    cursor: pointer;
+}
+
+.right-content a {
+    color: #3B2015;
+    text-decoration: none;
+}
+
+.right-content a:hover {
+    text-decoration: underline;
+}

@@ -44,7 +44,7 @@ main h1 {
 form {
     width: 50vw;
     margin: 0 auto;
-    padding-top: 30px;
+    padding: 30px 0;
 }
 
 .enunciado {
@@ -96,6 +96,13 @@ form {
     width: 49%;
 }
 
+.seu-pet-input {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
 select {
     appearance: none;
     -webkit-appearance: none;
@@ -110,3 +117,92 @@ select {
     color: #A99C97;
 }
 
+.sexo {
+    font-family: 'Delius', cursive;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+
+#macho, #femea {
+    margin: 0 7px 0 15px;
+}
+
+.sexo input:checked {
+    background-color: #3B2015;
+    box-sizing: border-box;
+    border: 5px solid #3B2015;
+    padding: 2px;
+}
+
+.tratamento-especial {
+    margin-top: 10px;
+    font-family: 'Delius', cursive;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.tratamento-especial div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tratamento-especial div input {
+    margin-right: 5px;
+}
+
+.tespecial4 textarea {
+    margin-left: 5px;
+}
+
+.localizacao {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.localizacao input:first-child {
+    width: 29%;
+}
+
+.localizacao input:nth-child(2) {
+    width: 69%;
+}
+
+.localizacao input:nth-child(3) {
+    width: 39%;
+}
+
+.localizacao input:nth-child(4) {
+    width: 39%;
+}
+
+.localizacao input:nth-child(5) {
+    width: 18%;
+}
+
+.localizacao input {
+    padding: 13px 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: 'Delius', cursive;
+    color: #A99C97;
+}
+
+#enviar {
+    padding: 13px 22px;
+    font-family: 'Delius', cursive;
+    font-size: 16px;
+    font-family: 'Delius', cursive;
+    font-weight: bolder;
+    color: #EBD4BA;
+    background-color: #3B2015;
+    border: none;
+    border-radius: 7px;
+}

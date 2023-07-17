@@ -43,7 +43,38 @@
                     <option value="cachorro">cachorro</option>
                     <option value="gato">gato</option>
                 </select>
+                <label for="sexo" class="sexo"><b>Sexo:</b>
+                    <input type="radio" name="sexo" id="macho">Macho
+                    <input type="radio" name="sexo" id="femea">Fêmea
+                </label>
+                <div class="tratamento-especial">
+                    <p><b>Necessita de algum tratamento especial?</b></p>
+                    <div class="tespecial1">
+                        <input type="checkbox" name="tespecial">Falta de algum membro
+                    </div>
+                    <div class="tespecial2">
+                        <input type="checkbox" name="tespecial">Alergia à alguma medicação
+                    </div>
+                    <div class="tespecial3">
+                        <input type="checkbox" name="tespecial">Alergia à alguma comida
+                    </div>
+                    <div class="tespecial4">
+                        <input type="checkbox" name="tespecial">Outro: <textarea name="tespecial" cols="50%" rows="1"></textarea>
+                    </div>
+                </div>
             </div>
+            <div class="enunciado">
+                <div class="text"><h3>Localização</h3></div>
+                <div class="reta"></div>
+            </div>
+            <div class="localizacao">
+                <input type="text" placeholder="CEP">
+                <input type="text" placeholder="Cidade">
+                <input type="text" placeholder="Bairro">
+                <input type="text" placeholder="Complemento">
+                <input type="text" placeholder="Número">
+            </div>
+            <button id="enviar">Enviar</button>
         </form>
     </main>
 </body>
